@@ -4,15 +4,15 @@
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
-let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-console.log(``);
+let userPreference =  'Regular'; // Possible values: 'Regular', 'Sugar-free', or undefined
+console.log(userPreference === 'Sugar-free' ? 'The user prefers a "Sugar-free" variety.':'The user prefers a "Regular" variety.');
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-console.log(``);
+//console.log(``);
 
 
 // #### Challenge 3: Workout Intensity
@@ -20,7 +20,7 @@ console.log(``);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+//console.log(`'}`);
 
 
 // #### Challenge 4: Temperature Suitability
@@ -28,7 +28,7 @@ console.log(`'}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-console.log(``);
+//console.log(``);
 
 
 // #### Challenge 5: Late Night Coding Session
