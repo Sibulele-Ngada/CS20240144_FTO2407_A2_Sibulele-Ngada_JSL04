@@ -39,3 +39,4 @@ console.log(currentTemp <= 5 ? "Chilled to perfection!":"Needs a cooler!");
 // Define the current hour in 24-hour format
 let currentHour = 2; 
 console.log(currentHour >= 7 ? "Unleash the beast!":"Better stick to water.");
+//&& operator not use \d to check second conditional as in 24 hour format any time from midnight to 7am will meet current conditional requirements
